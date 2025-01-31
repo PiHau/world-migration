@@ -97,7 +97,7 @@ Le projet utilise **D3.js** pour plusieurs aspects :
 
 ## Données
 
-  - Les données de migration sont issues de [World Data Portal](https://www.migrationdataportal.org/)
+  - Les données de migration sont issues de [Migration Data Portal](https://www.migrationdataportal.org/)
   - Les données de correspondances du [Reposit](https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/all/all.csv/)
   - les données de population totale de [World Bank](https://data.worldbank.org/indicator/SP.POP.TOTL/)
 
