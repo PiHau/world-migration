@@ -14,15 +14,15 @@ Ce projet permet de visualiser des données de migration internationale à trave
    - Utilise une échelle de couleur pour visualiser les pourcentages de migrants.
    - L'utilisateur peut sélectionner une année à l'aide d'un menu déroulant.
 
-   ![Carte Choroplèthe](img/choropleth.png) 
+   ![Carte Choroplèthe](choropleth.png) 
 
 2. **Carte Anamorphique** :
    - Affiche une carte alternative où les pays sont redimensionnés selon le nombre de migrants (en mode "absolute") ou le pourcentage de migrants (en mode "percentage").
    - Permet de visualiser les changements de population migrante au fil du temps en mode "evolution".
    - Basculer entre les modes "absolute", "percentage" et "evolution" via des boutons de contrôle.
 
-   ![Carte Anamorphique](img/anamorph1.png) 
-   ![Carte Anamorphique 2](img/anamorph2.png)
+   ![Carte Anamorphique](anamorph1.png) 
+   ![Carte Anamorphique 2](anamorph2.png)
 
 ---
 
