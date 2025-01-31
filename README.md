@@ -95,7 +95,7 @@ Le projet utilise **D3.js** pour plusieurs aspects :
   - **`script.js`** : Gère l'application principale, les interactions avec l'utilisateur et les visualisations (cartes choroplèthes et anamorphiques, graphiques). Ce script utilise D3.js pour manipuler et animer les éléments de la page.
   - **`styles.css`** : Définit la disposition et le style de la page, y compris la mise en page des conteneurs, les animations et les couleurs des cartes et graphiques.
 
-- **Le dossier `img` contenant les captures d'écran**
+- **les fichiers `.png` les captures d'écran**
 
  
 
