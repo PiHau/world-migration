@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Visualisation des Migrations</title>
+  <!-- Inclusion de D3.js (version 7 ou supérieure) -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <!-- Inclusion de Google Fonts pour 'Roboto' -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Feuille de styles principale -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Visualisation des Migrations</h1>
+  </header>
+
+  <!-- Container global en 3 colonnes -->
+  <div class="container">
+
+    <!-- Barre latérale gauche -->
+    <div class="left-container">
+      <!-- Section Fonctionnement -->
+      <div class="description-box">
+        <h2>Fonctionnement</h2>
+        <ul>
+          <li>Sélectionnez un pays et/ou une année pour obtenir des informations.</li>
+          <li>Cliquez sur une option pour afficher la carte correspondante.</li>
+        </ul>
+      </div>
+      
+      <!-- Définition des migrants -->
+      <div class="definition-box">
+        <h2>Définition</h2>
+        <p>
+          <strong>Migrant :</strong> Toute personne qui réside dans un autre pays que son pays de naissance.
+        </p>
+      </div>
+
+      <!-- Contrôles des options -->
+      <div class="controls">
+        <h3>Options</h3>
+        <!-- Sélecteur d'année pour la carte choroplèthe -->
+        <div id="choropleth-controls">
+          <label for="choropleth-year-select">Année :</label>
+          <select id="choropleth-year-select"></select>
+        </div>
+
+        <!-- Bouton de basculement entre les cartes -->
+        <button id="toggle-map">Afficher Carte Anamorphique</button>
+
+        <!-- Contrôles spécifiques à la carte anamorphique -->
+        <div class="anamorph-controls hidden" id="anamorphic-controls">
+          <label>Visualisations :</label>
+          <div class="mode-buttons">
+            <button id="anamorph-absolute-btn" class="mode-btn active">Nombre de Migrants</button>
+            <button id="anamorph-percentage-btn" class="mode-btn">Pourcentage Migrants</button>
+            <button id="anamorph-evolution-btn" class="mode-btn">Évolution entre chaque période</button>
+          </div>
+          <!-- Sélecteur de période pour le mode évolution -->
+          <div id="evolution-year-controls" class="hidden">
+            <label for="evolution-year-select">Période d'évolution :</label>
+            <select id="evolution-year-select"></select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Zone centrale : contient les deux cartes -->
+    <div id="map-container">
+      
+      <!-- Carte choroplèthe -->
+      <div id="choropleth-map-container">
+        <h2>Carte Choroplèthe du Pourcentage de Migrants</h2>
+        <div id="choropleth-map"></div>
+        <!-- Colorbar de la choroplèthe -->
+        <div class="colorbar-container">
+          <div id="choropleth-colorbar"></div>
+        </div>
+      </div>
+
+      <!-- Carte anamorphique (cachée par défaut) -->
+      <div id="anamorphic-map-container" class="hidden">
+        <h2>Carte Anamorphique</h2>
+        <div id="anamorphic-map"></div>
+        <!-- Colorbar de la carte anamorphique -->
+        <div class="colorbar-container">
+          <div id="anamorphic-colorbar"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Barre latérale droite : histogramme et bar plot -->
+    <div class="right-container">
+      <!-- Bar Plot en haut -->
+      <div id="barplot-container">
+        <h2>Origine de la Population Étrangère</h2>
+        <div id="barplot"></div>
+      </div>
+
+      <!-- Histogramme en bas -->
+      <div id="evolution-plot-container">
+        <h2>Évolution du Nombre de Migrants</h2>
+        <div id="evolution-plot"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Tooltip flottant -->
+  <div class="tooltip" id="tooltip"></div>
+
+  <!-- Script principal -->
+  <script src="script.js"></script>
+</body>
+</html>
