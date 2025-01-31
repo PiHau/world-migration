@@ -95,6 +95,12 @@ Le projet utilise **D3.js** pour plusieurs aspects :
   - **`script.js`** : Gère l'application principale, les interactions avec l'utilisateur et les visualisations (cartes choroplèthes et anamorphiques, graphiques). Ce script utilise D3.js pour manipuler et animer les éléments de la page.
   - **`styles.css`** : Définit la disposition et le style de la page, y compris la mise en page des conteneurs, les animations et les couleurs des cartes et graphiques.
 
+## Données
+
+  - Les données de migration sont issues de [http//](https://www.migrationdataportal.org/)
+  - Les données de correspondances du Reposit [http//](https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/all/all.csv/)
+  - les données de population totale de [http//](https://data.worldbank.org/indicator/SP.POP.TOTL/)
+
 ---
 
 
