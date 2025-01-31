@@ -82,7 +82,7 @@ Le projet utilise **D3.js** pour plusieurs aspects :
 
 ---
 
-## Contenu
+## Contenu du fichier `world-migration.zip`
 
 - **Les fichiers de données** :  
   - `world.geojson` : Données géographiques pour la carte du monde.
@@ -94,10 +94,6 @@ Le projet utilise **D3.js** pour plusieurs aspects :
   - **`index.html`** : Contient la structure HTML de la page, y compris les conteneurs pour les cartes, graphiques et contrôles d'interaction.
   - **`script.js`** : Gère l'application principale, les interactions avec l'utilisateur et les visualisations (cartes choroplèthes et anamorphiques, graphiques). Ce script utilise D3.js pour manipuler et animer les éléments de la page.
   - **`styles.css`** : Définit la disposition et le style de la page, y compris la mise en page des conteneurs, les animations et les couleurs des cartes et graphiques.
-
-- **les fichiers `.png` les captures d'écran**
-
- 
 
 ---
 
