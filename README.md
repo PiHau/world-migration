@@ -28,8 +28,7 @@ Ce projet permet de visualiser des données de migration internationale à trave
 
 ### Graphiques
 1. **Graphique à Barres (Bar Plot)** :
-   - Affiche les flux migratoires pour un pays sélectionné, avec des barres représentant les pays d'origine ou de destination.
-   - Permet de visualiser les flux entrants ou sortants pour une année donnée.
+   - Affiche la structure de la population étrangère par pays, avec le pays d'origine, et le pourcentage de chaque pays dans la population totale.
   
 
 
@@ -46,8 +45,8 @@ Ce projet permet de visualiser des données de migration internationale à trave
   
 - **Carte Anamorphique** :  
   Permet de basculer entre trois modes :  
-  - **"absolute"** : Affiche les migrants en termes absolus.  
-  - **"percentage"** : Affiche les migrants en pourcentage de la population.  
+  - **"absolu"** : Affiche les migrants en termes absolus.  
+  - **"pourcentage"** : Affiche les migrants en pourcentage de la population.  
   - **"evolution"** : Montre l'évolution des migrants au fil du temps.  
   Les utilisateurs peuvent aussi choisir des périodes spécifiques pour observer les évolutions.
 
