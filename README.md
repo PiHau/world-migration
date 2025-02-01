@@ -19,7 +19,7 @@ Ce projet permet de visualiser des données de migration internationale à trave
 2. **Carte Anamorphique** :
    - Affiche une carte alternative où les pays sont redimensionnés selon le nombre de migrants (en mode "absolute") ou le pourcentage de migrants (en mode "percentage").
    - Permet de visualiser les changements de population migrante au fil du temps en mode "evolution".
-   - Basculer entre les modes "absolute", "percentage" et "evolution" via des boutons de contrôle.
+   - Basculer entre les modes "absolu", "pourcentage" et "evolution" via des boutons de contrôle.
 
    ![Carte Anamorphique](anamorph1.png) 
    ![Carte Anamorphique 2](anamorph2.png)
